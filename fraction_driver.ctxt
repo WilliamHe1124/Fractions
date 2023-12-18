@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=fraction_driver
+comment1.params=
+comment1.target=void\ pi()
+comment1.text=public\ static\ void\ main(String[]\ args){\n\ \ \ \ \ \ \ \ Scanner\ input\=new\ Scanner(System.in);\n\ \ \ \ \ \ \ \ System.out.print("First\ numerator\:\ ");\n\ \ \ \ \ \ \ \ int\ ft\=input.nextInt();\n\ \ \ \ \ \ \ \ System.out.print("First\ denominator\:\ ");\n\ \ \ \ \ \ \ \ int\ sd\=input.nextInt();\n\ \ \ \ \ \ \ \ System.out.print("Second\ numerator\:\ ");\n\ \ \ \ \ \ \ \ int\ ft1\=input.nextInt();\n\ \ \ \ \ \ \ \ System.out.print("Second\ denominator\:\ ");\n\ \ \ \ \ \ \ \ int\ sd1\=input.nextInt();\n\ \ \ \ \ \ \ \ fraction\ obj1\=new\ fraction(ft,\ sd);\n\ \ \ \ \ \ \ \ fraction\ obj2\=new\ fraction(ft1,\ sd1);\n\ \ \ \ \ \ \ \ fraction\ instance1\=new\ fraction(obj1,\ obj2);\n\ \ \ \ \ \ \ \ instance1.add();\n\ \ \ \ \ \ \ \ instance1.subtract();\n\ \ \ \ \ \ \ \ instance1.multiply();\n\ \ \ \ \ \ \ \ instance1.divide();\n}
+comment2.params=
+comment2.target=void\ qst()
+numComments=3
